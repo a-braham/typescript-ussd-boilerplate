@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@api/*": [
+                "src/controllers/*"
+            ],
+            "@constants/*": [
+                "src/constants/*"
+            ],
+            "@helpers/*": [
+                "src/helpers/*"
+            ],
+            "@middlewares/*": [
+                "src/middlewares/*"
+            ],
+            "@models/*": [
+                "src/database/models/*"
+            ],
+            "@models": [
+                "src/database/models/index.ts"
+            ],
+            "@services/*": [
+                "src/services/*"
+            ]
+        },
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "strict": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "sourceMap": false,
+        "outDir": "dist",
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "include": [
+        "src/**/*"
+    ],
+    "lib": [
+        "es2015"
+    ],
+}

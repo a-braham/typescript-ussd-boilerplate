@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "paths": {
+            "@api/*": [
+                "controllers/*"
+            ],
+            "@constants/*": [
+                "constants/*"
+            ],
+            "@helpers/*": [
+                "helpers/*"
+            ],
+            "@middlewares/*": [
+                "middlewares/*"
+            ],
+            "@models/*": [
+                "database/models/*"
+            ],
+            "@models": [
+                "database/models/index.ts"
+            ],
+            "@services/*": [
+                "services/*"
+            ],
+        }
+    }
+}
